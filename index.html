@@ -5,6 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/zeecare-logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZeeCare - Hospital Management System</title>
+    <script>
+      // Set API base URL for production
+      // This can be overridden by setting window.__API_BASE__ in deployment
+      window.__API_BASE__ = window.__API_BASE__ || "http://localhost:5000";
+    </script>
   </head>
   <body>
     <div id="root"></div>
